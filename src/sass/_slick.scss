@@ -1,3 +1,20 @@
 .slick-prev, .slick-next {
   background-color: tomato;
 }
+
+.container {
+  width: 1200px;
+
+  background-color: green;
+  &-header {
+    background-color: #fff;
+  }
+
+  &:hover, &:focus {
+    color: aqua;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+}

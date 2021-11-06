@@ -2,22 +2,40 @@ body {
   color: green;
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// .container {
+//   width: 1200px;
+//   margin: 0 auto;
+//   padding: 0 15px;
+// }
+
+.team {
+height: 300px;
+  display: flex;
 }
 
 
-.features > .item {
+.team-item {
+  color: #212121;
+}
+
+.current {
+  cursor: pointer;
+  color: blue;
+}
+.team-link {
+  text-transform: uppercase;
   color: tomato;
 }
-
-.works-item {
-  color: aqua;
+.team-link:hover, .team-link:focus {
+  color: green;
 }
 
-
-.works-item {
-  color: tomato;
+.features-item:nth-child(2n) {
+  color: blueviolet;
 }
